@@ -1,0 +1,81 @@
+/* General Styling*/
+body {
+	font-family: 'Montserrat', sans-serif !important;
+}
+a {
+	color: #06c; 
+}
+img {
+	max-width: 100%;
+}
+.white {
+	color: #fff;
+}
+.black {
+	color: #1d1d1f;
+}
+.grey {
+	color: #86868b;
+}
+.top-50 {
+	margin-top: 50px;
+}
+.description-wraper.white{
+	color: white;
+}
+.links-wrapper {
+	padding: 15px 0;
+}
+.links-wrapper ul li {
+	display: inline-block;
+	padding-right: 20px;
+}
+.links-wrapper ul li a {
+	color: #06c;
+	text-decoration: none;
+	font-size: 21px;
+}
+.links-wrapper ul li a:hover {
+	color: #000;
+}
+.links-wrapper ul li a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 10px;
+}
+.title-wraper {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.15em;
+    letter-spacing: -0.04em;
+}
+.title-wraper.bold {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.15em;
+    letter-spacing: -0.04em;
+}
+
+.description-wrapper {
+	font-size: 26px;
+	padding: 10px 0;
+}
+.links-wrapper.white li a {
+	color: #fff;
+}
+
+/*Media Query*/
+
+@media (min-width: 768px) {
+
+.title-wraper.bold {
+	  font-size: 56px;
+	}
+	
+}
+
+.footer-links-wrapper h3.iconRotator:after {
+		font-family: "FontAwesome";
+		content: "\f068";
+	}
